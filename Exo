@@ -1,0 +1,28 @@
+<?php
+$Personnes = [
+    'Personne1' => [
+        'nom' => 'Franck',
+        'prenom' => 'Francky',
+        'age' => '17'
+    ],
+     'Personne2' => [
+        'nom' => 'Franckk',
+        'prenom' => 'Franckyy',
+        'age' => '19'
+    ],
+    'Personne3' => [
+        'nom' => 'Franckkk',
+        'prenom' => 'Franckyyy',
+        'age' => '20'
+    ]
+];
+
+foreach ($Personnes as $Fraise) {
+	if ($Fraise['age'] > 18) {
+		echo $Fraise['prenom'];
+	}
+}
+
+
+
+?>
